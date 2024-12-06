@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        padding: 10px;
+      }
+      .nav > ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        color: white;
+      }
+      .drop {
+        position: absolute;
+      }
+      .isVisible {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>nav1</li>
+        <li>nav2</li>
+        <li>nav3</li>
+      </ul>
+    </div>
+    <div style="padding-top: 120px">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+      dolores provident repellendus necessitatibus perspiciatis et aperiam quas
+      enim reiciendis voluptatibus. Ipsam, nam nemo. Omnis laboriosam qui ea
+      sequi et aliquid.
+    </div>
+    <button id="toggleBtn">Toggle Dropdown</button>
+    <div style="position: relative">
+      <ul id="drop" class="drop isVisible">
+        <li>nav1</li>
+        <li>nav2</li>
+        <li>nav3</li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    const btn = document.getElementById("toggleBtn");
+    const drop = document.getElementById("drop");
+    btn.addEventListener("click", () => drop.classList.toggle("isVisible"));
+  </script>
+</html>
