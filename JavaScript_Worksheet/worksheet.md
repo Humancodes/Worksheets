@@ -11,7 +11,7 @@ function fetchUser(callback) {
 fetchUser((name) => console.log(name));
 
 ## 2. Explaination Video Link
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 ## 3. Output based
@@ -73,7 +73,7 @@ const sum = result.reduce((acc, curr) => acc + curr, 0);
 console.log(sum);
 
 ## 2. Explaination Video Link
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 
@@ -108,7 +108,7 @@ console.log(freq);
 
 
 ## 2. Explaination Video Link
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 
@@ -140,7 +140,7 @@ console.log(nums);
 
 ## 2. Explaination Video Link
 
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 ## 3. Output based
@@ -174,7 +174,7 @@ const obj = {
 obj.greet();
 
 ## 2. Explaination Video Link
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 
@@ -236,7 +236,7 @@ console.log(detachedGetNum());  // Outputs: 42
 
 ## 2. Explaination Video Link
 
-[text](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
+[videoLink](https://drive.google.com/file/d/1wmz-HbZgy5xfBn9K_eYBJHAjaOWRS8fQ/view?usp=sharing)
 
 
 ## 3. Output based
